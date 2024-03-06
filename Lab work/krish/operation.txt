@@ -1,0 +1,4 @@
+$((a+b))
+`expr $a+$b`
+sum=$(echo "$a+$b" |bc -l)
+sum=`expr $a+$b |bc -l`
